@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
 svgSprite = require('gulp-svg-sprite'),
 rename = require('gulp-rename'),
-del = require('del'),
-svg2png = require('gulp-svg2png');
+del = require('del');
 
 var config = {
   shape: {
